@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
-
+import terminalSVG from '../assets/code-vector-half.svg'
 function Home() {
     return (
         <div>
@@ -21,7 +21,7 @@ function Home() {
                     <div className="container">
                         <div className="columns is-gapless is-centered">
                             <div className="column is-three-quarters has-text-centered">
-                                <img src="assets/code-vector-half.svg"/>
+                                <img src={terminalSVG}/>
                             </div>
                         </div>
                     </div>
