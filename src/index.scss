@@ -1,0 +1,33 @@
+$primary: #3a75bc;
+
+@import "node_modules/bulma/sass/base/minireset";
+@import "node_modules/bulma/sass/base/generic";
+@import "node_modules/bulma/sass/utilities/all";
+
+@import "node_modules/bulma/sass/layout/all";
+@import "node_modules/bulma/sass/grid/all";
+
+@import "node_modules/bulma/sass/elements/button";
+@import "node_modules/bulma/sass/elements/container";
+@import "node_modules/bulma/sass/elements/content";
+@import "node_modules/bulma/sass/elements/title";
+
+@import "node_modules/bulma/sass/components/navbar";
+@import "node_modules/bulma/sass/elements/tag";
+
+@import "node_modules/bulma/sass/helpers/typography";
+@import "node_modules/bulma/sass/helpers/color";
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.is-fixed-bottom{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+.footer{
+  padding-bottom: 3rem;
+}
