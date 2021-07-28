@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
-import terminalSVG from '../assets/code-vector-half.svg'
+import terminalSVG from '../assets/code-vector-half.svg';
 function Home() {
     return (
         <div>
@@ -40,10 +40,10 @@ function Home() {
                                 I am an advocate for <span>future maintainability, scalability, code quality and user experience</span>. I am comfortable working with Agile teams and several industry tools.
                                 I have a mindfulness for and strong interest in learning about <span>new technologies, development processes and best practices.</span>
                             </h2>
-                            <button className="button is-outlined is-rounded is-medium is-white">
+                            <a href={'/assets/bryan-lopez-resume.pdf'} rel='noreferrer' target="_blank" className="button is-outlined is-rounded is-medium is-white">
                                 <span className="icon"><FontAwesomeIcon icon={faFilePdf}/></span>
                                 <span>Download My Resume</span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
